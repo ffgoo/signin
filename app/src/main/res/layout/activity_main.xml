@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름"
+            />
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            />
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호(영문,숫자,특수문자를 혼합 8~15자리)"
+            />
+        <EditText
+            android:id="@+id/edtpasswordcheck"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 재입력"
+            />
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="회원가입"
+            android:textColor="#489CFF"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="로그인"
+            android:background="#489CFF"
+            />
+    </LinearLayout>
+
+</LinearLayout>
